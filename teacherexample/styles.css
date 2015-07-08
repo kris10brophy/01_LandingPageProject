@@ -1,0 +1,119 @@
+/* body styles */
+body {
+    margin: 0;
+}
+ 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* header styles */
+
+#img-jukebox {
+    margin-top: 29px;
+    margin-left: 70px;
+    margin-bottom: 27px;
+}
+.img-right {
+    float: right;
+    padding: 0 2em;
+}
+
+#img-subscribe {
+    margin-top: 18px;
+    margin-right: 15px;
+}
+
+#img-login {
+    margin-top: 18px;
+}
+
+/* styles for container that holds rectangle boxes */
+#rect-container {
+    text-align: center;
+}
+
+/* styles that are common to all 3 rectangle boxes */
+.rect-box {
+    display: inline-block;
+    background-repeat:no-repeat;
+    width: 280px;
+    height: 437px;
+    vertical-align: top;
+    color: #ffffff;
+    font-size: 18px;
+    line-height:  25px;
+    font-family: Arial;
+}
+
+/* specific rectangle box styles */
+#left-box {
+    background-image: url(images/rect-plan1.png);
+}
+
+#mid-box {
+    margin-right:53px;
+    margin-left: 53px;
+    background-image: url(images/rect-plan2.png);
+}
+
+#right-box {
+    background-image: url(images/rect-plan3.png);
+}
+
+/* CSS specificity. See: https://css-tricks.com/specifics-on-css-specificity/ */
+.rect-box h2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 42px;
+}
+
+.rect-box h3 {
+    font-size: 24px;
+    margin: 15px;
+}
+
+.plan-details {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    line-height: 30px;
+}
+
+.other-container {
+    text-align: center;
+    border: 1px dashed green;
+    padding: 25px;
+}
+
+/* Hero section */
+
+#hero {
+    background-image: url(images/hero-photo.png);
+    background-size: 100%;
+    height: 720px;
+    margin-bottom: 70px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#hero-text {
+    position: absolute;
+    top: 250px;
+    left: 209px;
+    width: 50%;
+}
+
+#hero-text h1 {
+    color: white;
+    font-family: 'Arial Black';
+    font-size: 52px;
+    margin: 0px;
+}
+
+#hero-text p {
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 22px;
+}

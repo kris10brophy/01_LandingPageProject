@@ -1,0 +1,9 @@
+@media screen and (min-width:600px){
+	.header{
+		float:left;
+		width:25%;
+	}
+	.action-btns{
+		margin-left:25%;
+	}
+}
